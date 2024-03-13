@@ -96,7 +96,8 @@ h1 {
   font-size: 9vmax;
   font-weight: 400;
   color: white; /* Set initial color */
-  transition: transform 1s ease, color 1s ease, -webkit-text-stroke 1s ease #fff; /* Transition properties for smooth animation */
+  transition: transform 1s ease, color 1s ease; /* Transition properties for smooth animation */
+  -webkit-text-stroke: 1px white; /* Add a white text stroke */
 }
 
 h1:hover {
